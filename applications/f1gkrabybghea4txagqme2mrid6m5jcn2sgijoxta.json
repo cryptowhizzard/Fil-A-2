@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "ID": "f1gkrabybghea4txagqme2mrid6m5jcn2sgijoxta",
+  "Issue Number": "6",
+  "Client": {
+    "Name": "CIDgravity",
+    "Region": "France",
+    "Industry": "IT & Technology Services",
+    "Website": "https://cidgravity.com",
+    "Social Media": "@Julien NOEL",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "CIDgravity performance testing",
+    "Brief history of your project and organization": "At twinquasar we are onboarding data to Slingshot since Slingshot 2.2 . Our goal is to onboard useful data to the network in a reusable way and To help improving the network; by bringing innovative piece of technology to the ecosystem\r\n\r\nTwinquasar has many roles in the ecosystem :\r\n- Filecoin expertise : consultancy / managed services\r\n- SP operations\r\n- Filecoin notary\r\n- Developper of CIDgravity\r\n- Developper of Lotus Farcaster\r\n- Environmental web3 developer",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "We use that dataset to measure the network capacity to absorb data. We expect this dataset to be spread as much SP as possible. \r\n\r\nThe will then use that dataset to run retrieval testing.\r\nThe data is composed on BSD distributions packages stored in unixfs format. \r\n\r\nWe might store at max < 3% of that dataset to our own SPs.",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "CIDgravity, as soon as its downloaded",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://ftp.fr.debian.org/debian/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Shall I really list 200 SPs here ?\r\n\r\nAt least : \r\n\r\n\r\nf01611097\r\nf01240\r\nf01924824\r\nf010479\r\nf02177086\r\nf01943041\r\nf01927163\r\nf01720359\r\nf02620\r\nf01115949\r\nf020378\r\nf02012951\r\nf0773157\r\nf01392893\r\nf01907556\r\nf02806693\r\nf01771403\r\nf01786387\r\nf0187709\r\nf02366527\r\nf01345523\r\nf02639429\r\nf01222595\r\nf0717969\r\nf097777\r\nf02806702\r\nf01163272\r\nf02806700\r\nf01924891\r\nf01770778\r\nf01900525\r\nf0706693\r\nf02055660",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "800TiB",
+    "Single Size Dataset": "100TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "70TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-05-06 19:35:39.013083261 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1gkrabybghea4txagqme2mrid6m5jcn2sgijoxta",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}

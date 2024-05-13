@@ -35,11 +35,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-05-13 13:36:07.925856231 UTC",
     "Validated By": "cryptowhizzard",
     "Active": true,
-    "Updated At": "2024-05-13 13:36:07.925862044 UTC",
+    "Updated At": "2024-05-13 13:36:53.506455125 UTC",
     "Active Request ID": "d11836e6-3819-4057-a230-e3a306ab6f2b",
     "On Chain Address": "f1chkvkj3tk2yhibcwl6guzbxuttw7qiflvfjueba",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-05-13 13:36:07.925863881 UTC",
       "Updated At": "2024-05-13 13:36:07.925865005 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "250TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "cryptowhizzard",
+          "Signing Address": "f14argljqmkt3ig4yhi5hqbm44eezafterkjj56uq",
+          "Created At": "2024-05-13 13:36:51.115000000 UTC",
+          "Message CID": "bafy2bzacecvaoziq574gyu5kbcmz3ua3i47gf6jj2i67l3wb7uljmbscsmmru"
+        }
+      ]
     }
   ]
 }

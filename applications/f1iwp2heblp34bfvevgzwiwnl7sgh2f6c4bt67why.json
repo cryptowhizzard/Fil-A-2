@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "Bits&Bytes is a European organization that aims to impact the decentralized storage space in the near future significantly. We have access to our own computer rooms in Amsterdam and Belgium, capable of processing large volumes of data. Our team is well-recognized in the Benelux internet scene and other industries.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "We will store the Human Pangenome Reference Consortium (HPRC) open dataset from AWS. This is a project funded by the National Human Genome Research Institute to sequence and assemble genomes from individuals from diverse populations in order to better represent genomic landscape of diverse human populations.",
@@ -36,11 +35,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-18 08:43:05.016572422 UTC",
     "Validated By": "cryptowhizzard",
     "Active": true,
-    "Updated At": "2024-05-07 11:00:06.074851983 UTC",
+    "Updated At": "2024-06-04 14:45:43.304631058 UTC",
     "Active Request ID": "781d6aca-7a40-48ab-a275-ae5e973a0fa7",
     "On Chain Address": "f1iwp2heblp34bfvevgzwiwnl7sgh2f6c4bt67why",
     "Multisig Address": "false",
@@ -100,9 +99,16 @@
       "Request Type": "Refill",
       "Created At": "2024-05-07 11:00:06.074864531 UTC",
       "Updated At": "2024-05-07 11:00:06.074866949 UTC",
-      "Active": true,
-      "Allocation Amount": "1.95PiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "500TiB",
+      "Signers": [
+        {
+          "Github Username": "cryptowhizzard",
+          "Signing Address": "f14argljqmkt3ig4yhi5hqbm44eezafterkjj56uq",
+          "Created At": "2024-06-04 14:45:41.116000000 UTC",
+          "Message CID": "bafy2bzacecezgtmnsrippvlju7msth3wlfd7dltavq2s24vbwcjavnf6p4326"
+        }
+      ]
     }
   ]
 }

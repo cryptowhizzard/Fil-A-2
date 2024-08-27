@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1paij7fdmzcgngc7v3mdoxuh6jvm4u5cl4uy7soi",
+  "Issue Number": "17",
+  "Client": {
+    "Name": "Hubble telescope full dataset",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://archive.stsci.edu/missions-and-data/hst",
+    "Social Media": "archive@stsci.edu",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Bits&Bytes is a European organization that aims to impact the decentralized storage space in the near future significantly. We have access to our own computer rooms in Amsterdam and Belgium, capable of processing large volumes of data. Our team is well-recognized in the Benelux internet scene and other industries.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "We will store the Human Pangenome Reference Consortium (HPRC) open dataset from AWS. This is a project funded by the National Human Genome Research Institute to sequence and assemble genomes from individuals from diverse populations in order to better represent genomic landscape of diverse human populations.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We will use Singularity.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "This will be the AWS bucket.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Holon Australia, Melbourne 1 replica's\r\nDSS Australis, Sydney 1 replica\r\nDcent, The Netherlands 2 replica's\r\nThis is a dataset complementary for the OpenPanda project. If SP's are interested in storing, please contact us. We have 6 slot's available.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-08-27 11:40:32.525942130 UTC",
+    "Validated By": "cryptowhizzard",
+    "Active": true,
+    "Updated At": "2024-08-27 11:41:45.675167979 UTC",
+    "Active Request ID": "7414ee5e-d576-441c-8f5d-b4dc9dadd8e3",
+    "On Chain Address": "f1paij7fdmzcgngc7v3mdoxuh6jvm4u5cl4uy7soi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "7414ee5e-d576-441c-8f5d-b4dc9dadd8e3",
+      "Request Type": "First",
+      "Created At": "2024-08-27 11:40:32.525950452 UTC",
+      "Updated At": "2024-08-27 11:40:32.525957846 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "cryptowhizzard",
+          "Signing Address": "f14argljqmkt3ig4yhi5hqbm44eezafterkjj56uq",
+          "Created At": "2024-08-27 11:41:44.006000000 UTC",
+          "Message CID": "bafy2bzacec4ctbkvr24lc5znc2k2j7emjcyfng54lezhiazrzqkrh56pzxnyq"
+        }
+      ]
+    }
+  ]
+}

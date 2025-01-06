@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f3vxp4h5iwcoj3eomcdrpquoj3a6ledjkrw2ga77iym2xlirbhpxhmtafgb6sumdsvqld23e676n4iy6ng3vjq",
+  "Issue Number": "27",
+  "Client": {
+    "Name": "National Library of Medicine (NLM)",
+    "Region": "USA",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/ncbi-sra/",
+    "Social Media": "sra@ncbi.nlm.nih.gov",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "DCENT has been a pivotal player within the Filecoin and IPFS ecosystem since its inception. Our team has contributed extensively to the growth and development of the ecosystem, engaging in diverse initiatives to enhance its functionality and sustainability. Highlights of our involvement include participating in multiple Slingshot initiatives, leading emergency repair and recovery programs, managing notary and onboarding processes, collaborating on network improvements, and delivering ecosystem presentations. Notably, we have partnered with Filecoin Green to implement impactful renewable energy projects, such as the installation of over 800 solar panels and battery storage systems in our edge datacenter.\r\n\r\nToday, DCENT is dedicated to addressing the critical challenge of preserving access to valuable datasets that are typically hosted for limited durations on platforms like AWS. Our mission is to ensure these datasets are securely stored long-term on Filecoin and made accessible to researchers via IPFS. By doing so, we aim to reshape data availability, enabling applications like AI training, data analysis, and other innovative use cases that advance the Filecoin ecosystem and its broader objectives.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "The NIH dataset being stored on Filecoin encompasses a diverse range of high-value biomedical and scientific data. This includes structured and unstructured datasets essential for advancing medical research, health informatics, and scientific discovery. Key categories of data include:\r\n\r\n1. **Genomics and Sequencing Data**:\r\n   - Large-scale genomic data, including DNA and RNA sequencing results.\r\n   - Data from personalized medicine studies and genetic research.\r\n\r\n2. **Medical Imaging**:\r\n   - High-resolution imaging datasets such as X-rays, MRIs, and CT scans.\r\n   - Annotated imaging data used in AI model training for diagnostic tools.\r\n\r\n3. **Clinical and Health Records**:\r\n   - De-identified patient health records and clinical trial data.\r\n   - Population health statistics and outcomes data.\r\n\r\n4. **Behavioral and Social Science Data**:\r\n   - Surveys and studies exploring behavioral health and social determinants of health.\r\n\r\n5. **Environmental and Epidemiological Data**:\r\n   - Datasets on disease prevalence, environmental exposures, and public health trends.\r\n\r\n6. **Specialized Research Data**:\r\n   - Information from NIH-funded research projects in areas like cancer, cardiovascular health, and infectious diseases.\r\n   - Datasets supporting initiatives like the All of Us Research Program.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Data Ingestion & Validation:\r\n- Ingest raw NIH data from AWS and validate integrity using sha256sum.\r\n\r\nPacking with SINGULARITY v3:\r\n- Use a custom SINGULARITY v3 tool to create CAR files for Filecoin.\r\n- Split data into manageable chunks (32GB).\r\n\r\nStorage & Optimization:\r\n- Store raw data in the edge datacenter using ZFS pools for redundancy.\r\n- Perform deduplication, compression, and metadata normalization with tools like jq.\r\n\r\nValidation:\r\n- Validate CAR files with Lotus client to ensure Filecoin compatibility.\r\n\r\nGlobal Distribution:\r\n- Distribute CAR files globally using Rclone, S3 or rsync for efficient replication.\r\n- Leverage CID-based tracking for reliable retrieval on Filecoin.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Public data is stored in the S3 bucket: s3://sra-pub-run-odp/.\r\n\r\nFetch a sample file directly from the S3 bucket:\r\n- aws s3 cp s3://sra-pub-run-odp/sra/SRR390728/SRR390728.sra .",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Here’s a copyable GitHub Markdown table:\r\n\r\n\r\n| Business                       | Storage Provider ID                                   | Location            |\r\n|--------------------------------|-----------------------------------------------------|---------------------|\r\n| Moos Holding BV               | TBD                                                 | Finland             |\r\n| Dream Mark One                | f02037700                                           | Korea               |\r\n| DCENT Investments             | f01771403, f03064136, f02982293, f02366527          | Netherlands (AMS)   |\r\n| Management Consultance Europe | f03161054                                        | Germany             |\r\n| Global Stake                  | f03112580                                           | USA                 |\r\n| FSPA Management Limited       | f03275917                                           | Virgin Islands (USA)|\r\n| Streamic Networks             | TBD                                                 | Netherlands (HHW)   |\r\n| TBD                           | TBD                                                 | TBD                 |",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "108PiB",
+    "Single Size Dataset": "13.5PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1.5PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-01-06 08:08:13.288236046 UTC",
+    "Validated By": "cryptowhizzard",
+    "Active": true,
+    "Updated At": "2025-01-06 08:08:13.288232394 UTC",
+    "Active Request ID": "ab63adeb-fe57-4fb0-9a8b-4642e6d276e7",
+    "On Chain Address": "f3vxp4h5iwcoj3eomcdrpquoj3a6ledjkrw2ga77iym2xlirbhpxhmtafgb6sumdsvqld23e676n4iy6ng3vjq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "ab63adeb-fe57-4fb0-9a8b-4642e6d276e7",
+      "Request Type": "First",
+      "Created At": "2025-01-06 08:06:29.187309622 UTC",
+      "Updated At": "2025-01-06 08:06:29.187311012 UTC",
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "cryptowhizzard",
+          "Signing Address": "f14argljqmkt3ig4yhi5hqbm44eezafterkjj56uq",
+          "Created At": "2025-01-06 08:08:10.902000000 UTC",
+          "Message CID": "bafy2bzacebxydjtnmycap453uel3wfy4bjj5fg7qqgrgkixuglxn4fgchpcrg"
+        }
+      ]
+    }
+  ]
+}

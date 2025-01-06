@@ -35,11 +35,11 @@
     "Weekly Allocation": "1.5PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-01-06 08:06:29.187303084 UTC",
+    "State": "Granted",
+    "Validated At": "2025-01-06 08:08:13.288236046 UTC",
     "Validated By": "cryptowhizzard",
     "Active": true,
-    "Updated At": "2025-01-06 08:06:29.187307344 UTC",
+    "Updated At": "2025-01-06 08:08:13.288232394 UTC",
     "Active Request ID": "ab63adeb-fe57-4fb0-9a8b-4642e6d276e7",
     "On Chain Address": "f3vxp4h5iwcoj3eomcdrpquoj3a6ledjkrw2ga77iym2xlirbhpxhmtafgb6sumdsvqld23e676n4iy6ng3vjq",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2025-01-06 08:06:29.187309622 UTC",
       "Updated At": "2025-01-06 08:06:29.187311012 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "512TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "cryptowhizzard",
+          "Signing Address": "f14argljqmkt3ig4yhi5hqbm44eezafterkjj56uq",
+          "Created At": "2025-01-06 08:08:10.902000000 UTC",
+          "Message CID": "bafy2bzacebxydjtnmycap453uel3wfy4bjj5fg7qqgrgkixuglxn4fgchpcrg"
+        }
+      ]
     }
   ]
 }

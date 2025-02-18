@@ -35,7 +35,7 @@
     "Weekly Allocation": "1.5PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-02-17 06:54:06.169216437 UTC",
     "Validated By": "cryptowhizzard",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "83c0852f-d60b-4bf5-ba60-5319d6b441c7",
     "On Chain Address": "f3vxp4h5iwcoj3eomcdrpquoj3a6ledjkrw2ga77iym2xlirbhpxhmtafgb6sumdsvqld23e676n4iy6ng3vjq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
